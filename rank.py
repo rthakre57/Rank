@@ -72,3 +72,43 @@ for i in range(n):
 		rank+=1
 print("Rank of Matrix A is :")
 print(rank)
+
+
+Output 
+Enter N for NxN matrix:3
+Enter the elemnts::>
+1
+2
+3
+4
+5
+6
+7
+8
+9
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+Matrix A in matrix form
+1 2 3
+4 5 6
+7 8 9
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+After 0 operation:
+[1, 2, 3]
+[0, -3.0, -6.0]
+[0, -6.0, -12.0]
+[[1, 2, 3], [0, -3, -6], [0, -6, -12]]
+[[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+After 1 operation:
+[1, 2, 3]
+[0, -3, -6]
+[0, 0, -0.0]
+[[1, 2, 3], [0, -3, -6], [0, 0, 0]]
+[[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+After 2 operation:
+[1, 2, 3]
+[0, -3, -6]
+[0, 0, 0]
+[0, 0, 0]
+Rank of Matrix A is :
+2
